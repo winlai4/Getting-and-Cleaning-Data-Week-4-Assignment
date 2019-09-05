@@ -1,4 +1,4 @@
-# TidyData set description
+# Getting and Cleaning the data and the TidyData set description
 TidyData set contains 180 rows and 68 columns and summary of the data based on the average mean and standard deviation for each subject and activity. Only the variables estimated from mean and standard deviation have been kept.  
 
 The R script run_analysis.R pulls the data from the URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
