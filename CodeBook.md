@@ -5,7 +5,7 @@ The R script run_analysis.R pulls the data from the URL: https://d396qusza40orc.
 
 The data is then merged into a single data frame keeping only measures for the mean and standard deviation. The names of the measurement/variables are also cleaned to appropriately describe each of the labels and for easier reference.
 
-A second indenpendent data set named TidyData is also created from the merged data set summarise the average mean and standard deviation for each subject and activity. 
+A second independent data set named TidyData is also created from the merged data set that summarises the average mean and standard deviation for each subject and activity. 
 
 # Activity
 Each subject is numbered sequentially based on their activity. Activities are number accordingly:
