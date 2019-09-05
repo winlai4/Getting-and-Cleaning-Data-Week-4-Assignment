@@ -1,10 +1,14 @@
 # TidyData set description
-TidyData set contains 180 rows and 68 columns and summary of the data based on the average mean and standard deviation for each subject and activity. 
-Only the variables estimated from mean and standard deviation have been kept.   
+TidyData set contains 180 rows and 68 columns and summary of the data based on the average mean and standard deviation for each subject and activity. Only the variables estimated from mean and standard deviation have been kept.  
+
+The R script run_analysis.R pulls the data from the URL: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The data is then merged into a single data frame keeping only measures for the mean and standard deviation. The names of the measurement/variables are also cleaned to appropriately describe each of the labels and for easier reference.
+
+A second indenpendent data set named TidyData is also created from the merged data set summarise the average mean and standard deviation for each subject and activity. 
 
 # Activity
 Each subject is numbered sequentially based on their activity. Activities are number accordingly:
-
 
 1. WALKING
 
