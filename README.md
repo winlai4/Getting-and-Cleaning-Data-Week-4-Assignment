@@ -2,13 +2,13 @@
 
 This repository is my submission for Getting and Cleaning Data week 4 assignment. It has the instructions on how to run analysis on the dataset.
 
-Dataset
+# Dataset
 Human Activity Recognition Using Smartphones
 
-CodeBook.md 
+# CodeBook.md 
 A code book that describes the variables, the data, and any transformations or work that I performed to clean up the data
 
-r_analysis.R 
+# r_analysis.R
 R script to perform the data preparation and then:
 1) Merges the training and the test sets to create one data set.
 2) calculates mean and standard deviation for each measurement.
