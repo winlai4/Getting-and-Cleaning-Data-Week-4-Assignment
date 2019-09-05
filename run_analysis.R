@@ -62,4 +62,4 @@ names(Merged_data) <-gsub("gravity", "Gravity", names(Merged_data))
 TidyData <- Merged_data %>%
   group_by(subject, activity) %>%
   summarise_all(funs(mean)) %>%
-  write.table("FinalData.txt", row.name=FALSE) 
+  write.table("TidyData.txt", row.name=FALSE) 
